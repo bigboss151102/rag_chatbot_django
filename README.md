@@ -26,11 +26,21 @@ Note: The exact path will vary depending on your Visual Studio version and editi
 Then use `nmake` to build:
 
 ```cmd
-set "PGROOT=C:\Program Files\PostgreSQL\16"
+set "PGROOT=C:\Program Files\PostgreQL\16"
 cd %TEMP%
 git clone --branch v0.7.2 https://github.com/pgvector/pgvector.git
 cd pgvector
 nmake /F Makefile.win
 nmake /F Makefile.win install
+```
+
+Then create new environment where contain nessessary packages to this project.
+Ensure you have Python 3.10+ installed.
+```cmd
+python -m venv .venv
+```
+Activate new enviroment
+```cmd
+.venv\Scripts\activate
 ```
 
