@@ -4,7 +4,7 @@
 - [Installation Backend](#installation-backend)
 - [Create Vector Database with PGVector](#vector-database)
 - [Installation Frontend](#installation-frontend)
-- [Contributing](#contributing)
+- [Run Application](#run-application)
 - [Contact](#contact)
 
 # Description
@@ -110,7 +110,18 @@ npm run dev
 ```
 Visit the URL shown in your terminal (usually http://localhost:5173/) to view your React app’s welcome page.
 
-
+# Run Application
+All done! To run the application, start the Django server and the React development server
+In 2 separate terminals, make sure you’re in the root directory of your Django project, run:
+```cmd
+python manage.py runserver
+```
+and in the frontend directory, run:
+```cmd
+cd frontend
+npm run dev
+```
+Visit the URL shown in your terminal (usually http://localhost:5173/) to view the app.
 
 
 
