@@ -59,7 +59,7 @@ cd Django_React_Langchain_Stream
 ```
 ### Create your Django app
 ```cmd
-python manage.py langchain_stream
+python manage.py startapp langchain_stream
 ```
 ### Test the Setup
 Start the Django development server:
