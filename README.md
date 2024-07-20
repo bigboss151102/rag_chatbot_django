@@ -76,7 +76,39 @@ python rag_load_and_process.py
 ```
 Then wait for the process to complete (it may take a few minutes) and check the database for the new table called "langchain_pg_embeding and langchain_pg_collection" in your PostgreSQL database.
 
+# Installation Frontend
+Ensure Node.js and npm are installed
+run
+```cmd
+node -v
+npm -v
+```
+if installed, you should see their version numbers. For example:
+```cmd
+v20.8.0
+10.1.0
+```
+### Create a React Application
+Generate a new React project:
+```cmd
+npm create vite@latest
+```
+Name the project frontend, select 'React' as the framework, and choose 'JavaScript' for the variant. Then, navigate into your new frontend directory:
 
+```cmd
+cd frontend
+```
+Install the required React packages:
+```cmd
+npm install
+```
+
+### Test the Frontend
+Start the React development server:
+```cmd
+npm run dev
+```
+Visit the URL shown in your terminal (usually http://localhost:5173/) to view your React app’s welcome page.
 
 
 
