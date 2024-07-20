@@ -123,6 +123,14 @@ npm run dev
 ```
 Visit the URL shown in your terminal (usually http://localhost:5173/) to view the app.
 
+# Contact
+For questions, contributions, or bug reports, please feel free to reach out:
+
+- Email: [hoangcongtrong02.dut@gmail.com](hoangcongtrong02.dut@gmail.com)
+- Linkedin: [https://www.linkedin.com/in/hoangtrong151102/](https://www.linkedin.com/in/hoangtrong151102/)
+- Instagram: [https://www.instagram.com/h.c.trong_02/](https://www.instagram.com/h.c.trong_02/)
+
+I appreciate your feedback and involvement!
 
 
 
