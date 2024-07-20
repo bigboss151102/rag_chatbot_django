@@ -2,6 +2,7 @@
 - [Description](#description)
 - [Design System](#design-system)
 - [Installation Backend](#installation-backend)
+- [Create Vector Database with PGVector](#vector-database)
 - [Installation Frontend](#installation-frontend)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -65,6 +66,20 @@ Start the Django development server:
 ```cmd
 python manage.py runserver
 ```
+### Notes
+You need to create a .env file to store essential keys for the project such as OPENAI_API_KEY, LANGCHAIN_API_KEY, SECRET_KEY,ALLOWED_HOSTS, APP_DEBUG,  and others.
+
+# Create Vector Database with PGVector
+Move into the langchain-stream app directory and run command in your terminal:
+```cmd
+python rag_load_and_process.py
+```
+Then wait for the process to complete (it may take a few minutes) and check the database for the new table called "langchain_pg_embeding and langchain_pg_collection" in your PostgreSQL database.
+
+
+
+
+
 
 
 
